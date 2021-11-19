@@ -1,0 +1,18 @@
+1、代码仓库初始化：git init 
+2、查看状态：git status
+3、添加文件：git add . (点是当前目录)
+4、提交：git commit -m "注释"
+5、git设置用户信息：
+git config --global user.name "56316845"
+git config --global user.email "56316845@qq.com"
+6、查看配置信息：git config --list
+7、cd到文件名带空格的处理：cd "Program Files"
+8、 git 创建秘钥
+ssh-keygen -t rsa -C "56316845@qq.com"
+9、git与远程库建立联系
+git remote add origin https://github.com/guyibang/TEST2.git
+10、将本地库的内容推送到远程库
+git push -u origin master（新建仓库加-u）
+
+2021 the first taken
+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
